@@ -1,0 +1,83 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">AQUA</string>
+    <string name="app_subtitle">Project Management Tool</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_loading">Loading...</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_title_1">Monitor activity, sleep, and water intake</string>
+    <string name="onboarding_title_2">Track your daily health vitals effortlessly</string>
+    <string name="onboarding_title_3">Stay healthy with smart reminders and insights</string>
+    
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_previous">Previous</string>
+    <string name="onboarding_get_started">Get Started</string>
+    
+    <!-- Authentication -->
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_link">Don\'t have an account? Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Join AQUA today</string>
+    <string name="name_hint">Full Name</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="login_link">Already have an account? Login</string>
+    
+    <string name="reset_password_title">Reset Password</string>
+    <string name="reset_password_subtitle">Enter your email to receive reset instructions</string>
+    <string name="send_otp_button">Send OTP</string>
+    
+    <string name="otp_title">Verify OTP</string>
+    <string name="otp_subtitle">Enter the code sent to your email</string>
+    <string name="otp_hint">Enter OTP</string>
+    <string name="verify_otp_button">Verify</string>
+    <string name="resend_otp">Resend OTP</string>
+    
+    <!-- Main Dashboard -->
+    <string name="home_tab">Home</string>
+    <string name="goals_tab">Goals</string>
+    <string name="activity_tab">Activity</string>
+    <string name="projects_tab">Projects</string>
+    <string name="notifications_tab">Notifications</string>
+    <string name="profile_tab">Profile</string>
+    
+    <!-- Home Fragment -->
+    <string name="home_welcome">Welcome to AQUA</string>
+    <string name="home_projects_title">My Projects</string>
+    <string name="home_team_title">Team Members</string>
+    <string name="home_stats_title">Project Statistics</string>
+    <string name="home_todo">To Do</string>
+    <string name="home_in_progress">In Progress</string>
+    <string name="home_completed">Completed</string>
+    
+    <!-- Projects Fragment -->
+    <string name="projects_title">All Projects</string>
+    <string name="add_project">Add Project</string>
+    <string name="project_deadline">Deadline</string>
+    <string name="project_members">Members</string>
+    
+    <!-- Notifications Fragment -->
+    <string name="notifications_title">Notifications</string>
+    <string name="no_notifications">No notifications yet</string>
+    
+    <!-- Profile Fragment -->
+    <string name="profile_title">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="user_role">Project Manager</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading...</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="try_again">Try Again</string>
+</resources>

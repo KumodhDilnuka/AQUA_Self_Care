@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (60%) -->
+    <color name="primary">#122117</color>
+    <color name="primary_dark">#0A150E</color>
+    <color name="primary_light">#1A2F22</color>
+    
+    <!-- Secondary Colors (30%) -->
+    <color name="secondary">#FFFFFF</color>
+    <color name="secondary_light">#F5F5F5</color>
+    <color name="secondary_dark">#E0E0E0</color>
+    
+    <!-- Accent Colors (10%) -->
+    <color name="accent">#38E078</color>
+    <color name="accent_light">#5AE68A</color>
+    
+    <!-- Button Colors -->
+    <color name="button_secondary">#264533</color>
+    
+    <!-- Additional Colors -->
+    <color name="teal">#009688</color>
+    <color name="peach">#FFCCBC</color>
+    <color name="mint_green">#A5D6A7</color>
+    
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

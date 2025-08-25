@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AQUA_Self_Care" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/secondary</item>
+        <item name="colorSurface">@color/secondary</item>
+        <item name="colorOnSurface">@color/black</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <!-- Custom Button Style -->
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+    <!-- Custom Secondary Button Style -->
+    <style name="CustomSecondaryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/button_secondary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+    <!-- Custom Outline Button Style -->
+    <style name="CustomOutlineButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:background">@drawable/button_outline</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="backgroundTint">@null</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+
+    <!-- Number Picker Style -->
+    <style name="NumberPickerStyle">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:colorControlNormal">@color/white</item>
+    </style>
+    
+    <!-- Splash Screen Theme -->
+    <style name="Theme.AQUA_Self_Care.Splash" parent="Theme.AQUA_Self_Care">
+        <item name="android:windowBackground">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+    
+    <!-- Onboarding Theme -->
+    <style name="Theme.AQUA_Self_Care.Onboarding" parent="Theme.AQUA_Self_Care">
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>
